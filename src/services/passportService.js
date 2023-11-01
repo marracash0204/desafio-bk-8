@@ -3,7 +3,7 @@ import local from "passport-local";
 import GitHubStrategy from "passport-github2";
 import bcrypt from "bcrypt";
 import { userModel } from "../models/userModel.js";
-import config from "../config.js";
+import config from "../config/config.js";
 import { cartManager } from "../dao/dataAccess/mongo/cartsManager.js";
 
 const cartsManager = new cartManager();

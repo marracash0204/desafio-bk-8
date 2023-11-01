@@ -13,7 +13,7 @@ import { messageManager } from "./dao/dataAccess/mongo/messageManager.js";
 import mongoose from "mongoose";
 import { productsManager } from "./dao/dataAccess/mongo/productsManager.js";
 import userRouter from "./routes/userRoutes.js";
-import config from "./config.js";
+import config from "./config/config.js";
 
 mongoose.connect(config.mongoURI);
 
